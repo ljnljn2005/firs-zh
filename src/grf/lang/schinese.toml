@@ -1,0 +1,1288 @@
+[GLOBAL_PRAGMA]
+grflangid = "0x56"
+plural = "0"
+
+[STR_GRF_NAME]
+base = "FIRS 产业替换包"
+
+[STR_GRF_DESC]
+base = "{ORANGE}FIRS 产业替换包{}{BLACK}由 andythenorth、FooBar、planetmaker、Terkhen 与 Yexo 制作，并得到许多人的帮助。{SILVER}详见网站，包括 FIRS 的使用说明。{BLACK}许可协议：GPL v2。简体中文由社区翻译。"
+
+[STR_PARAM_DESC_COAST_DISTANCE_MARINE_INDUSTRY]
+base = "渔场、石油钻井平台与疏浚作业点距离海岸的最大格数。"
+
+[STR_PARAM_DESC_ECONOMIES]
+base = "每种经济模式提供不同的货物与产业组合。{}{}对希望简单游玩的玩家，{SILVER}基础 {BLACK}经济模式包含的产业与货物比其他 FIRS 经济模式更少。{}{}FIRS 网站上提供了每种经济模式的详细信息。"
+
+[STR_PARAM_NAME_COAST_DISTANCE_MARINE_INDUSTRY]
+base = "海洋产业距海岸的最大格数"
+
+[STR_PARAM_NAME_ECONOMIES]
+base = "经济模式"
+
+[STR_PARAM_VALUE_SECONDARY_NEVER_CLOSE_0]
+base = "不限制"
+
+[STR_PARAM_NAME_PRIMARY_LEVEL1_REQUIREMENT]
+base = "达到增强初级产量所需的补给箱数（默认 16）"
+
+[STR_PARAM_NAME_PRIMARY_LEVEL2_REQUIREMENT]
+base = "达到全力初级产量所需的补给箱数（默认 80）"
+
+[STR_PARAM_DESC_PRIMARY_LEVEL_REQUIREMENT]
+base = "农场、矿场及类似产业在收到补给箱后产量会提高，先提高到 {SILVER}增强{BLACK}，再提高到 {SILVER}全力{BLACK}，前提是送达足够多的补给箱。{}{}默认值就很好，但如有需要可在此修改。{}{}港口类产业的货物需求量为此处设定值的 8 倍。"
+
+[STR_PARAM_NAME_PRIMARY_LEVEL1_BONUS]
+base = "增强初级产量水平（%）"
+
+[STR_PARAM_NAME_PRIMARY_LEVEL2_BONUS]
+base = "全力初级产量水平（%）"
+
+[STR_PARAM_DESC_PRIMARY_LEVEL_BONUS]
+base = "农场、矿场及类似产业在满足补给需求时的产量（以 {SILVER}正常 {BLACK}产量水平的百分比表示）。"
+
+[STR_PARAM_VALUE_ECONOMIES_BASIC_TEMPERATE]
+base = "温带基础"
+
+[STR_PARAM_VALUE_ECONOMIES_BASIC_ARCTIC]
+base = "寒带基础"
+
+[STR_PARAM_VALUE_ECONOMIES_BASIC_TROPIC]
+base = "热带基础"
+
+[STR_PARAM_VALUE_ECONOMIES_IN_A_HOT_COUNTRY]
+base = "炎热之国"
+
+[STR_PARAM_VALUE_ECONOMIES_MILD_MILD_WEST]
+base = "狂野西部"
+
+[STR_PARAM_VALUE_ECONOMIES_STEELTOWN]
+base = "钢城"
+
+[STR_PARAM_NAME_OBJECTS]
+base = "FIRS 景观物件"
+
+[STR_PARAM_DESC_OBJECTS]
+base = "FIRS 附带一组景观物件，玩家可用它们把某些产业范围做大。景观物件不影响游戏机制。可以开启或关闭景观物件。"
+
+[STR_CARGO_SUBTYPE_DISPLAY_CARGO_OPTIONAL_FLAG]
+base = " {BLACK}（可选）"
+
+[STR_CARGO_SUBTYPE_DISPLAY_CARGO_SUPPLIED_FLAG]
+base = " {BLACK}（已供应）"
+
+[STR_EXTRA_TEXT_SECONDARY_NON_COMBINATORY]
+base = "{BLACK}只需供应 {WHITE}任意一种 {BLACK}所需货物即可达到最高产量。"
+
+[STR_EXTRA_TEXT_SECONDARY_COMBINATORY_BOTH]
+base = "{BLACK}要达到最高产量，请至少每三分钟供应一次 {WHITE}两种 {BLACK}所需货物。"
+
+[STR_EXTRA_TEXT_SECONDARY_COMBINATORY_ALL]
+base = "{BLACK}要达到最高产量，请至少每三分钟供应一次 {WHITE}全部 {BLACK}所需货物。"
+
+[STR_EXTRA_TEXT_SECONDARY_COMBINATORY_ANY_TWO]
+base = "{BLACK}要达到最高产量，请至少每三分钟供应一次 {WHITE}任意两种 {BLACK}所需货物。"
+
+[STR_EXTRA_TEXT_SECONDARY_COMBINATORY_ANY_THREE]
+base = "{BLACK}要达到最高产量，请至少每三分钟供应一次 {WHITE}任意三种 {BLACK}所需货物。"
+
+[STR_EXTRA_TEXT_TOWN_PRODUCER]
+base = "{BLACK}产量与城镇人口成正比。每分钟产出的货物不少于 {WHITE}{SIGNED_WORD} 单位{BLACK}，且不超过 {WHITE}{SIGNED_WORD} 单位{BLACK}。"
+
+[STR_PRIMARY_PRODUCTION_1X]
+base = "{BLACK}当前产量：{YELLOW}正常 {}{}{BLACK}要达到 {WHITE}增强 {BLACK}产量，请至少每三分钟送达 {SIGNED_WORD} 箱补给。{}要达到 {WHITE}全力 {BLACK}产量，请送达 {SIGNED_WORD} 箱补给。"
+
+[STR_PRIMARY_PRODUCTION_2X]
+base = "{BLACK}当前产量：{YELLOW}增强 {}{}{BLACK}要维持该水平，请至少每三分钟送达 {SIGNED_WORD} 箱补给。{}要达到 {WHITE}全力 {BLACK}产量，请送达 {SIGNED_WORD} 箱补给。"
+
+[STR_PRIMARY_PRODUCTION_4X]
+base = "{BLACK}当前产量：{YELLOW}全力 {}{}{BLACK}要维持该水平，请至少每三分钟送达 {SKIP}{SIGNED_WORD} 箱补给。"
+
+[STR_PORT_PRODUCTION_1X]
+base = "{BLACK}当前产量：{YELLOW}正常 {}{}{BLACK}要达到 {WHITE}增强 {BLACK}产量，请至少每三分钟送达 {SIGNED_WORD} 单位货物。{}要达到 {WHITE}全力 {BLACK}产量，请送达 {SIGNED_WORD} 单位。"
+
+[STR_PORT_PRODUCTION_2X]
+base = "{BLACK}当前产量：{YELLOW}增强 {}{}{BLACK}要维持该水平，请至少每三分钟送达 {SIGNED_WORD} 单位货物。{}要达到 {WHITE}全力 {BLACK}产量，请送达 {SIGNED_WORD} 单位。"
+
+[STR_PORT_PRODUCTION_4X]
+base = "{BLACK}当前产量：{YELLOW}全力 {}{}{BLACK}要维持该水平，请至少每三分钟送达 {SKIP}{SIGNED_WORD} 单位货物。"
+
+[STR_ERR_OPENTTD_VERSION]
+base = "{ORANGE}E00：FIRS 需要 OpenTTD 1.7.0（使用开发版的玩家需要 r27769 或更高）"
+
+[STR_ERR_INCOMPATIBLE_SET]
+base = "{ORANGE}E01：{YELLOW}不兼容的组件集：{ORANGE}{STRING}"
+
+[STR_ERR_INCOMPATIBLE_PARAM_CANSET]
+base = "{ORANGE}E02：{YELLOW}不兼容的参数：{ORANGE}CanSet 参数 2 必须为 0 才能与 FIRS 一起使用。"
+
+[STR_ERR_INCOMPATIBLE_PARAM_CITYSET]
+base = "{ORANGE}E02：{YELLOW}不兼容的参数：{ORANGE}NA City Set 参数 2 必须为 0 才能与 FIRS 一起使用。"
+
+[STR_ERR_INCOMPATIBLE_SET_TTRS_VERSION]
+base = "{ORANGE}E04：{YELLOW}不兼容的版本：{ORANGE}Total Town Replacement Set 必须是 release 3.11 或更新版本。"
+
+[STR_ERR_LOCATION_NOT_ABOVE_SNOWLINE]
+base = "必须建在雪线以下。"
+
+[STR_ERR_LOCATION_NOT_ON_STEEP_SLOPE]
+base = "不能建在陡坡上。"
+
+[STR_FUND_ARABLE_FARM]
+base = "{}{BLACK}位置：{YELLOW}不能在雪地或沙漠中资助建设。"
+
+[STR_FUND_COFFEE_ESTATE]
+base = "{}{BLACK}位置：{YELLOW}不能在雪地或沙漠中资助建设。"
+
+[STR_FUND_DAIRY_FARM]
+base = "{}{BLACK}位置：{YELLOW}不能在雪地或沙漠中资助建设。"
+
+[STR_FUND_FARM]
+base = "{}{BLACK}位置：{YELLOW}不能在雪地或沙漠中资助建设。"
+
+[STR_FUND_FOREST]
+base = "{}{BLACK}位置：{YELLOW}不能在沙漠中资助建设。"
+
+[STR_FUND_FRUIT_PLANTATION]
+base = "{}{BLACK}位置：{YELLOW}不能在雪地中资助建设。"
+
+[STR_FUND_HERDING_COOP]
+base = "{}{BLACK}位置：{YELLOW}只能在雪地中资助建设。"
+
+[STR_FUND_ORCHARD_PIGGERY]
+base = "{}{BLACK}位置：{YELLOW}不能在雪地或沙漠中资助建设。"
+
+[STR_FUND_RUBBER_PLANTATION]
+base = "{}{BLACK}位置：{YELLOW}不能在雪地或沙漠中资助建设。"
+
+[STR_FUND_VINEYARD]
+base = "{}{BLACK}位置：{YELLOW}不能在雪地或沙漠中资助建设。"
+
+[STR_TOWN]
+base = "{STRING}"
+
+[STR_CARGO_ACID]
+name = "酸"
+cargo_unit = "{VOLUME}酸"
+cid = "{TINYFONT}AC"
+
+[STR_CARGO_AGGREGATES]
+name = "集料"
+cargo_unit = "{WEIGHT}集料"
+cid = "{TINYFONT}AG"
+
+[STR_CARGO_ALUMINIUM]
+name = "铝"
+cargo_unit = "{WEIGHT}铝"
+cid = "{TINYFONT}AM"
+
+[STR_CARGO_ALUMINA]
+name = "氧化铝"
+cargo_unit = "{WEIGHT}氧化铝"
+cid = "{TINYFONT}AA"
+
+[STR_CARGO_AMMONIA_AND_NITRIC_PRODUCTS]
+name = "氨与硝酸制品"
+cargo_unit = "{VOLUME}氨与硝酸制品"
+cid = "{TINYFONT}AO"
+
+[STR_CARGO_ANHYDRITE]
+name = "硬石膏"
+cargo_unit = "{WEIGHT}硬石膏"
+cid = "{TINYFONT}AY"
+
+[STR_CARGO_APPLES]
+name = "苹果"
+cargo_unit = "{WEIGHT}苹果"
+cid = "{TINYFONT}AP"
+
+[STR_CARGO_BEANS]
+name = "豆类"
+cargo_unit = "{WEIGHT}豆类"
+cid = "{TINYFONT}BN"
+
+[STR_CARGO_BITUMEN]
+name = "沥青"
+cargo_unit = "{VOLUME}沥青"
+cid = "{TINYFONT}BI"
+
+[STR_CARGO_BUILDING_MATERIALS]
+name = "建筑材料"
+cargo_unit = "{WEIGHT}建筑材料"
+cid = "{TINYFONT}BM"
+
+[STR_CARGO_CARBON_BLACK]
+name = "炭黑"
+cargo_unit = "{WEIGHT}炭黑"
+cid = "{TINYFONT}CB"
+
+[STR_CARGO_CASSAVA]
+name = "木薯"
+cargo_unit = "{WEIGHT}木薯"
+cid = "{TINYFONT}CA"
+
+[STR_CARGO_CAST_IRON]
+name = "铸铁"
+cargo_unit = "{WEIGHT}铸铁"
+cid = "{TINYFONT}CI"
+
+[STR_CARGO_CEMENT]
+name = "水泥"
+cargo_unit = "{WEIGHT}水泥"
+cid = "{TINYFONT}CE"
+
+[STR_CARGO_CHEMICAL_INTERMEDIATES]
+name = "化工中间体"
+cargo_unit = "{VOLUME}化工中间体"
+cid = "{TINYFONT}OC"
+
+[STR_CARGO_CHEMICALS]
+name = "化学品"
+cargo_unit = "{VOLUME}化学品"
+cid = "{TINYFONT}CH"
+
+[STR_CARGO_CHLORINE]
+name = "氯气"
+cargo_unit = "{VOLUME}氯气"
+cid = "{TINYFONT}CH"
+
+[STR_CARGO_CLAY]
+name = "黏土"
+cargo_unit = "{WEIGHT}黏土"
+cid = "{TINYFONT}CY"
+
+[STR_CARGO_CLEANING_AGENTS]
+name = "清洁剂"
+cargo_unit = "{WEIGHT}清洁剂"
+cid = "{TINYFONT}CN"
+
+[STR_CARGO_COFFEE]
+name = "咖啡"
+cargo_unit = "{WEIGHT}袋咖啡"
+cid = "{TINYFONT}CF"
+
+[STR_CARGO_COAL_TAR]
+name = "煤焦油"
+cargo_unit = "{VOLUME}煤焦油"
+cid = "{TINYFONT}CT"
+
+[STR_CARGO_COKE]
+name = "焦炭"
+cargo_unit = "{WEIGHT}焦炭"
+cid = "{TINYFONT}CK"
+
+[STR_CARGO_COMPONENTS]
+name = "精密部件"
+cargo_unit = "{WEIGHT}精密部件"
+cid = "{TINYFONT}CO"
+
+[STR_CARGO_CONCRETE_PRODUCTS]
+name = "混凝土制品"
+cargo_unit = "{WEIGHT}混凝土制品"
+cid = "{TINYFONT}CP"
+
+[STR_CARGO_COPPER]
+name = "铜"
+cargo_unit = "{WEIGHT}铜"
+cid = "{TINYFONT}CR"
+
+[STR_CARGO_EDIBLE_OIL]
+name = "食用油"
+cargo_unit = "{VOLUME}食用油"
+cid = "{TINYFONT}EO"
+
+[STR_CARGO_ELECTRICAL_PARTS]
+name = "电气零件"
+cargo_unit = "{WEIGHT}电气零件"
+cid = "{TINYFONT}EP"
+
+[STR_CARGO_ENGINEERING_SUPPLIES]
+name = "工程物资"
+cargo_unit = "{SIGNED_WORD}箱工程物资"
+cid = "{TINYFONT}ES"
+
+[STR_CARGO_EXPLOSIVES]
+name = "炸药"
+cargo_unit = "{WEIGHT}炸药"
+cid = "{TINYFONT}EX"
+
+[STR_CARGO_FERROALLOYS]
+name = "铁合金"
+cargo_unit = "{WEIGHT}铁合金"
+cid = "{TINYFONT}FA"
+
+[STR_CARGO_FISH]
+name = "鱼与海鲜"
+cargo_unit = "{WEIGHT}鱼与海鲜"
+cid = "{TINYFONT}FI"
+
+[STR_CARGO_FARM_SUPPLIES]
+name = "农用物资"
+cargo_unit = "{SIGNED_WORD}箱农用物资"
+cid = "{TINYFONT}FS"
+
+[STR_CARGO_FERTILISER]
+name = "化肥"
+cargo_unit = "{WEIGHT}化肥"
+cid = "{TINYFONT}FL"
+
+[STR_CARGO_FLOUR]
+name = "面粉与淀粉"
+cargo_unit = "{WEIGHT}面粉与淀粉"
+cid = "{TINYFONT}FL"
+
+[STR_CARGO_FOOD_ADDITIVES]
+name = "食品添加剂"
+cargo_unit = "{WEIGHT}食品添加剂"
+cid = "{TINYFONT}FV"
+
+[STR_CARGO_FOOD_AND_BEVERAGES]
+name = "食品与饮料"
+cargo_unit = "{WEIGHT}食品与饮料"
+
+[STR_CARGO_FORGINGS_AND_CASTINGS]
+name = "锻件与铸件"
+cargo_unit = "{WEIGHT}锻件与铸件"
+cid = "{TINYFONT}FO"
+
+[STR_CARGO_FROZEN_FOOD]
+name = "冷冻食品"
+cargo_unit = "{WEIGHT}冷冻食品"
+
+[STR_CARGO_FRUITS]
+name = "水果"
+cargo_unit = "{WEIGHT}水果"
+
+[STR_CARGO_GLASS]
+name = "玻璃制品"
+cargo_unit = "{WEIGHT}玻璃制品"
+cid = "{TINYFONT}GL"
+
+[STR_CARGO_HARDWARE]
+name = "五金与饰面材料"
+cargo_unit = "{WEIGHT}五金与饰面材料"
+cid = "{TINYFONT}HW"
+
+[STR_CARGO_INDUSTRIAL_CARBONS]
+name = "工业碳制品"
+cargo_unit = "{WEIGHT}工业碳制品"
+cid = "{TINYFONT}PC"
+
+[STR_CARGO_INDUSTRIAL_GASES]
+name = "工业气体"
+cargo_unit = "{VOLUME}工业气体"
+cid = "{TINYFONT}IG"
+
+[STR_CARGO_KAOLIN]
+name = "瓷土"
+cargo_unit = "{WEIGHT}瓷土"
+cid = "{TINYFONT}KA"
+
+[STR_CARGO_LIGHT_HYDROCARBONS]
+name = "轻质烃"
+cargo_unit = "{VOLUME}轻质烃"
+cid = "{TINYFONT}LH"
+
+[STR_CARGO_LIMESTONE]
+name = "石灰石"
+cargo_unit = "{WEIGHT}石灰石"
+cid = "{TINYFONT}LS"
+
+[STR_CARGO_LOGS]
+name = "原木"
+cargo_unit = "{WEIGHT}原木"
+cid = "{TINYFONT}LG"
+
+[STR_CARGO_LYE]
+name = "氢氧化钠"
+cargo_unit = "{VOLUME}氢氧化钠"
+cid = "{TINYFONT}SY"
+
+[STR_CARGO_METHANOL]
+name = "甲醇"
+cargo_unit = "{VOLUME}甲醇"
+cid = "{TINYFONT}ML"
+
+[STR_CARGO_MILK]
+name = "牛奶"
+cargo_unit = "{VOLUME}牛奶"
+cid = "{TINYFONT}MK"
+
+[STR_CARGO_MANGANESE]
+name = "锰"
+cargo_unit = "{WEIGHT}锰"
+cid = "{TINYFONT}MN"
+
+[STR_CARGO_MEAT]
+name = "肉类"
+cargo_unit = "{WEIGHT}肉类"
+
+[STR_CARGO_BARYTES_AND_FLUORSPAR]
+name = "重晶石与萤石"
+cargo_unit = "{WEIGHT}重晶石与萤石"
+cid = "{TINYFONT}MA"
+
+[STR_CARGO_MINERAL_FILLERS]
+name = "矿物填料"
+cargo_unit = "{WEIGHT}矿物填料"
+cid = "{TINYFONT}MF"
+
+[STR_CARGO_MOLASSES]
+name = "原糖与糖蜜"
+cargo_unit = "{WEIGHT}原糖与糖蜜"
+cid = "{TINYFONT}MO"
+
+[STR_CARGO_NITRATES]
+name = "硝酸盐"
+cargo_unit = "{WEIGHT}硝酸盐"
+cid = "{TINYFONT}NI"
+
+[STR_CARGO_NITROGEN]
+name = "氮气"
+cargo_unit = "{VOLUME}氮气"
+cid = "{TINYFONT}N7"
+
+[STR_CARGO_NUTS]
+name = "坚果"
+cargo_unit = "{WEIGHT}坚果"
+cid = "{TINYFONT}NT"
+
+[STR_CARGO_OXYGEN]
+name = "氧气"
+cargo_unit = "{VOLUME}氧气"
+cid = "{TINYFONT}O2"
+
+[STR_CARGO_PACKAGING]
+name = "包装材料"
+cargo_unit = "{WEIGHT}包装材料"
+cid = "{TINYFONT}PG"
+
+[STR_CARGO_PAINTS_AND_COATINGS]
+name = "涂料与油漆"
+cargo_unit = "{VOLUME}涂料与油漆"
+cid = "{TINYFONT}PC"
+
+[STR_CARGO_PEAT]
+name = "泥炭"
+cargo_unit = "{WEIGHT}泥炭"
+cid = "{TINYFONT}PE"
+
+[STR_CARGO_PETROLEUM_FUELS]
+name = "石油燃料"
+cargo_unit = "{VOLUME}石油燃料"
+cid = "{TINYFONT}PT"
+
+[STR_CARGO_PIPEWORK]
+name = "储罐与管道"
+cargo_unit = "{WEIGHT}储罐与管道"
+cid = "{TINYFONT}PW"
+
+[STR_CARGO_PHOSPHATE]
+name = "磷矿"
+cargo_unit = "{WEIGHT}磷矿"
+cid = "{TINYFONT}PH"
+
+[STR_CARGO_PHOSPHORIC_ACID]
+name = "磷酸"
+cargo_unit = "{VOLUME}磷酸"
+cid = "{TINYFONT}PA"
+
+[STR_CARGO_PIG_IRON]
+name = "生铁"
+cargo_unit = "{WEIGHT}生铁"
+cid = "{TINYFONT}PI"
+
+[STR_CARGO_PLASTICS]
+name = "塑料与树脂"
+cargo_unit = "{WEIGHT}塑料与树脂"
+cid = "{TINYFONT}PL"
+
+[STR_CARGO_PLANT_AND_MACHINERY]
+name = "机械设备"
+cargo_unit = "{WEIGHT}机械设备"
+cid = "{TINYFONT}PM"
+
+[STR_CARGO_POTASH]
+name = "钾碱"
+cargo_unit = "{WEIGHT}钾碱"
+cid = "{TINYFONT}PA"
+
+[STR_CARGO_PROCESS_CHEMICALS]
+name = "工艺化学品"
+cargo_unit = "{WEIGHT}工艺化学品"
+cid = "{TINYFONT}PC"
+
+[STR_CARGO_PUMPS_AND_VALVES]
+name = "泵与阀门"
+cargo_unit = "{WEIGHT}泵与阀门"
+cid = "{TINYFONT}PV"
+
+[STR_CARGO_PYRITE_ORE]
+name = "黄铁矿"
+cargo_unit = "{WEIGHT}黄铁矿"
+cid = "{TINYFONT}PY"
+
+[STR_CARGO_QUICKLIME]
+name = "生石灰"
+cargo_unit = "{WEIGHT}生石灰"
+cid = "{TINYFONT}QL"
+
+[STR_CARGO_REBAR]
+name = "螺纹钢"
+cargo_unit = "{WEIGHT}螺纹钢"
+cid = "{TINYFONT}RB"
+
+[STR_CARGO_SALT]
+name = "盐"
+cargo_unit = "{WEIGHT}盐"
+cid = "{TINYFONT}NA"
+
+[STR_CARGO_SAND]
+name = "沙子"
+cargo_unit = "{WEIGHT}沙子"
+cid = "{TINYFONT}SA"
+
+[STR_CARGO_SCRAP_METAL]
+name = "废金属"
+cargo_unit = "{WEIGHT}废金属"
+cid = "{TINYFONT}SM"
+
+[STR_CARGO_SEALS_HOSES_AND_BELTS]
+name = "密封件、软管与传送带"
+cargo_unit = "{WEIGHT}密封件、软管与传送带"
+cid = "{TINYFONT}EL"
+
+[STR_CARGO_SLAG]
+name = "矿渣"
+cargo_unit = "{WEIGHT}矿渣"
+cid = "{TINYFONT}SG"
+
+[STR_CARGO_SODA_ASH]
+name = "纯碱"
+cargo_unit = "{WEIGHT}纯碱"
+cid = "{TINYFONT}SO"
+
+[STR_CARGO_STEEL]
+name = "钢材"
+cargo_unit = "{WEIGHT}钢材"
+cid = "{TINYFONT}SL"
+
+[STR_CARGO_STEEL_BILLETS_AND_BLOOMS]
+name = "钢坯与初轧坯"
+cargo_unit = "{WEIGHT}钢坯与初轧坯"
+cid = "{TINYFONT}BB"
+
+[STR_CARGO_STEEL_INGOTS]
+name = "钢锭"
+cargo_unit = "{WEIGHT}钢锭"
+cid = "{TINYFONT}SI"
+
+[STR_CARGO_STEEL_MERCHANT_BAR]
+name = "商品钢棒"
+cargo_unit = "{WEIGHT}商品钢棒"
+cid = "{TINYFONT}SB"
+
+[STR_CARGO_STEEL_PIPE]
+name = "钢管"
+cargo_unit = "{WEIGHT}钢管"
+cid = "{TINYFONT}SP"
+
+[STR_CARGO_STEEL_PLATE]
+name = "钢板"
+cargo_unit = "{WEIGHT}钢板"
+cid = "{TINYFONT}SE"
+
+[STR_CARGO_STEEL_SHEET]
+name = "薄板与带钢"
+cargo_unit = "{WEIGHT}薄板与带钢"
+cid = "{TINYFONT}SH"
+
+[STR_CARGO_STEEL_SLAB]
+name = "扁钢坯"
+cargo_unit = "{WEIGHT}扁钢坯"
+cid = "{TINYFONT}SL"
+
+[STR_CARGO_STEEL_TUBE]
+name = "无缝钢管"
+cargo_unit = "{WEIGHT}无缝钢管"
+cid = "{TINYFONT}ST"
+
+[STR_CARGO_STEEL_WIRE_ROD]
+name = "线材盘条"
+cargo_unit = "{WEIGHT}线材盘条"
+cid = "{TINYFONT}SW"
+
+[STR_CARGO_STRUCTURAL_STEELWORK]
+name = "结构钢"
+cargo_unit = "{WEIGHT}结构钢"
+cid = "{TINYFONT}STSW"
+
+[STR_CARGO_SULPHUR]
+name = "硫磺"
+cargo_unit = "{WEIGHT}硫磺"
+cid = "{TINYFONT}SU"
+
+[STR_CARGO_SULPHURIC_ACID]
+name = "硫酸"
+cargo_unit = "{VOLUME}硫酸"
+cid = "{TINYFONT}SD"
+
+[STR_CARGO_TIMBER]
+name = "木材制品"
+cargo_unit = "{WEIGHT}木材制品"
+cid = "{TINYFONT}LU"
+
+[STR_CARGO_TIN]
+name = "锡"
+cargo_unit = "{WEIGHT}锡"
+cid = "{TINYFONT}TI"
+
+[STR_CARGO_TINPLATE]
+name = "马口铁"
+cargo_unit = "{WEIGHT}马口铁"
+cid = "{TINYFONT}TP"
+
+[STR_CARGO_TYRE_CORD]
+name = "轮胎帘布"
+cargo_unit = "{WEIGHT}轮胎帘布"
+cid = "{TINYFONT}TC"
+
+[STR_CARGO_TYRES]
+name = "轮胎"
+cargo_unit = "{WEIGHT}轮胎"
+cid = "{TINYFONT}TY"
+
+[STR_CARGO_VEGETABLES]
+name = "蔬菜"
+cargo_unit = "{WEIGHT}蔬菜"
+cid = "{TINYFONT}VG"
+
+[STR_CARGO_VEHICLE_BODIES]
+name = "车身"
+cargo_unit = "{WEIGHT}车身"
+cid = "{TINYFONT}VB"
+
+[STR_CARGO_VEHICLE_ENGINES]
+name = "发动机与传动系统"
+cargo_unit = "{WEIGHT}发动机与传动系统"
+cid = "{TINYFONT}VE"
+
+[STR_CARGO_VEHICLE_PARTS]
+name = "车辆零件"
+cargo_unit = "{WEIGHT}车辆零件"
+cid = "{TINYFONT}VP"
+
+[STR_CARGO_VEHICLES]
+name = "车辆"
+cargo_unit = "{WEIGHT}车辆"
+cid = "{TINYFONT}VS"
+
+[STR_CARGO_WELDING_CONSUMABLES]
+name = "焊接耗材"
+cargo_unit = "{WEIGHT}焊接耗材"
+cid = "{TINYFONT}WS"
+
+[STR_CARGO_WOOD_PULP]
+name = "木浆"
+cargo_unit = "{WEIGHT}木浆"
+cid = "{TINYFONT}WP"
+
+[STR_CARGO_WOOL]
+name = "羊毛"
+cargo_unit = "{SIGNED_WORD}包羊毛"
+cid = "{TINYFONT}WL"
+
+[STR_CARGO_ZINC]
+name = "锌"
+cargo_unit = "{WEIGHT}锌"
+cid = "{TINYFONT}ZN"
+
+[STR_CARGO_ZINC_ORE]
+name = "锌矿"
+cargo_unit = "{WEIGHT}锌矿"
+cid = "{TINYFONT}ZO"
+
+[STR_CARGO_GOODS]
+cargo_unit = "{WEIGHT}货物"
+
+[STR_IND_ALUMINIUM_PLANT]
+base = "铝冶炼厂"
+
+[STR_IND_AMMONIA_AND_NITRIC_PRODUCTS_PLANT]
+base = "氨与硝酸联合厂"
+
+[STR_IND_ANHYDRITE_MINE]
+base = "硬石膏矿"
+
+[STR_IND_ANHYDRITE_PROCESS_PLANT]
+base = "硬石膏加工厂"
+
+[STR_IND_APPLIANCE_FACTORY]
+base = "家电厂"
+
+[STR_IND_ARABLE_FARM]
+base = "耕地农场"
+
+[STR_IND_ASSEMBLY_PLANT]
+base = "总装厂"
+
+[STR_IND_SECTION_AND_BAR_MILL]
+base = "型钢与棒材轧钢厂"
+
+[STR_IND_BASIC_OXYGEN_FURNACE]
+base = "氧气顶吹转炉"
+
+[STR_IND_BLAST_FURNACE]
+base = "高炉"
+
+[STR_IND_CHIPBOARD_FACTORY]
+base = "刨花板厂"
+
+[STR_IND_BODY_PLANT]
+base = "车身厂"
+
+[STR_IND_BREWERY]
+base = "啤酒厂"
+
+[STR_IND_CIDER_MILL]
+base = "苹果酒坊"
+
+[STR_IND_BUILDERS_YARD]
+base = "建筑工场"
+
+[STR_IND_CARBON_BLACK_PLANT]
+base = "炭黑厂"
+
+[STR_IND_CELLULOSE_PRODUCTS_WORKS]
+base = "纤维素制品厂"
+
+[STR_IND_CEMENT_PLANT]
+base = "水泥厂"
+
+[STR_IND_CHEMICAL_COMPLEX]
+base = "化工联合厂"
+
+[STR_IND_EXPLOSIVES_FACTORY]
+base = "炸药厂"
+
+[STR_IND_CHLOR_ALKALI_PLANT]
+base = "氯碱厂"
+
+[STR_IND_CLAY_PIT]
+base = "黏土矿坑"
+
+[STR_IND_COFFEE_ESTATE]
+base = "咖啡种植园"
+
+[STR_IND_COKE_OVEN]
+base = "炼焦炉"
+
+[STR_IND_CONCRETE_PLANT]
+base = "混凝土厂"
+
+[STR_IND_CONSUMER_CHEMICALS_PLANT]
+base = "批式化工厂"
+
+[STR_IND_COPPER_SMELTER]
+base = "铜冶炼厂"
+
+[STR_IND_CRYO_PLANT]
+base = "低温气体厂"
+
+[STR_IND_DAIRY]
+base = "乳品厂"
+
+[STR_IND_DAIRY_FARM]
+base = "奶牛场"
+
+[STR_IND_DREDGING_SITE]
+base = "疏浚作业点"
+
+[STR_IND_ELASTOMER_PRODUCTS_PLANT]
+base = "弹性体制品厂"
+
+[STR_IND_ELECTRIC_ARC_FURNACE]
+base = "电弧炉"
+
+[STR_IND_ENGINE_PLANT]
+base = "发动机厂"
+
+[STR_IND_ENGINEERING_WORKS]
+base = "机械厂"
+
+[STR_IND_FARM]
+base = "农场"
+
+[STR_IND_PROCESS_CHEMICALS_PLANT]
+base = "工艺化学品厂"
+
+[STR_IND_FERMENTATION_PLANT]
+base = "发酵厂"
+
+[STR_IND_FISH_FARM]
+base = "养鱼场"
+
+[STR_IND_FISHING_GROUND]
+base = "渔场"
+
+[STR_IND_FISHING_HARBOUR]
+base = "渔港"
+
+[STR_IND_GRAIN_MILL]
+base = "谷物磨坊"
+
+[STR_IND_FOOD_PROCESSOR]
+base = "食品加工厂"
+
+[STR_IND_FORGE_AND_FOUNDRY]
+base = "锻造与铸造厂"
+
+[STR_IND_FROZEN_FOOD_PLANT]
+base = "冷冻食品厂"
+
+[STR_IND_FURNITURE_FACTORY]
+base = "家具厂"
+
+[STR_IND_GENERAL_STORE]
+base = "杂货店"
+
+[STR_IND_GLASS_WORKS]
+base = "玻璃厂"
+
+[STR_IND_HERDING_COOP]
+base = "牧业合作社"
+
+[STR_IND_HOTEL]
+base = "酒店"
+
+[STR_IND_FROZEN_DESSERTS_FACTORY]
+base = "冷冻甜点厂"
+
+[STR_IND_INTEGRATED_STEEL_MILL]
+base = "钢铁联合厂"
+
+[STR_IND_SCRAP_YARD]
+base = "废料场"
+
+[STR_IND_LIME_KILN]
+base = "石灰窑"
+
+[STR_IND_LIMESTONE_MINE]
+base = "石灰石矿"
+
+[STR_IND_MANGANESE_MINE]
+base = "锰矿"
+
+[STR_IND_METAL_WORKS]
+base = "金属制品厂"
+
+[STR_IND_MINERAL_FILLERS_PLANT]
+base = "矿物填料厂"
+
+[STR_IND_NITRATE_MINE]
+base = "硝酸盐矿"
+
+[STR_IND_INDUSTRIAL_CHEMICALS_PLANT]
+base = "工业化学品厂"
+
+[STR_IND_OIL_TERMINAL]
+base = "石油与化学品码头"
+
+[STR_IND_ORCHARD_PIGGERY]
+base = "果园与猪场"
+
+[STR_IND_BOTTLE_AND_CAN_FACTORY]
+base = "瓶罐厂"
+
+[STR_IND_PAPER_PRODUCTS_FACTORY]
+base = "纸制品厂"
+
+[STR_IND_PEATLANDS]
+base = "泥炭地"
+
+[STR_IND_PETROLPUMP]
+base = "加油站"
+
+[STR_IND_PHOSPHATE_MINE]
+base = "磷矿"
+
+[STR_IND_PHOSPHATE_AND_ACID_PLANT]
+base = "化肥与硫酸厂"
+
+[STR_IND_COMMERCIAL_BAKERY]
+base = "商业面包房"
+
+[STR_IND_PIPEWORK_FABRICATOR]
+base = "管件厂"
+
+[STR_IND_PLATE_MILL]
+base = "中厚板轧钢厂"
+
+[STR_IND_POLYMER_PRODUCTS_PLANT]
+base = "塑料成型厂"
+
+[STR_IND_PORT]
+base = "港口"
+
+[STR_IND_POTASH_MINE]
+base = "钾盐矿"
+
+[STR_IND_POWER_SYSTEMS_FACTORY]
+base = "动力系统厂"
+
+[STR_IND_POWER_PLANT]
+base = "发电厂"
+
+[STR_IND_PRECISION_PARTS_PLANT]
+base = "精密零件厂"
+
+[STR_IND_PRODUCE_PACKER]
+base = "农产品包装厂"
+
+[STR_IND_PYRITE_MINE]
+base = "黄铁矿"
+
+[STR_IND_PYRITE_SMELTER]
+base = "黄铁矿冶炼厂"
+
+[STR_IND_QUARRY]
+base = "采石场"
+
+[STR_IND_RANCH]
+base = "牧场"
+
+[STR_IND_ROADSTONE_PLANT]
+base = "筑路石料厂"
+
+[STR_IND_SALT_WORKS]
+base = "盐场"
+
+[STR_IND_SLAG_GRINDING_PLANT]
+base = "矿渣粉磨厂"
+
+[STR_IND_SODA_ASH_MINE]
+base = "纯碱矿"
+
+[STR_IND_CONVENIENCE_FOODS_FACTORY]
+base = "方便食品厂"
+
+[STR_IND_STOCKYARD]
+base = "牲畜场"
+
+[STR_IND_STRIP_MILL]
+base = "带钢轧钢厂"
+
+[STR_IND_SUGAR_REFINERY]
+base = "制糖厂"
+
+[STR_IND_SUPPLY_YARD]
+base = "物资场"
+
+[STR_IND_TIMBER_YARD]
+base = "木料场"
+
+[STR_IND_TIN_MINE]
+base = "锡矿"
+
+[STR_IND_TINPLATE_WORKS]
+base = "马口铁厂"
+
+[STR_IND_TRACKED_MACHINE_FACTORY]
+base = "履带车辆厂"
+
+[STR_IND_TRADING_POST]
+base = "贸易站"
+
+[STR_IND_TUBE_AND_PIPE_MILL]
+base = "管材轧钢厂"
+
+[STR_IND_TYRE_PLANT]
+base = "轮胎厂"
+
+[STR_IND_VINEYARD]
+base = "葡萄园"
+
+[STR_IND_VEHICLE_DISTRIBUTOR]
+base = "汽车经销店"
+
+[STR_IND_WHARF]
+base = "码头"
+
+[STR_IND_WIRE_ROD_MILL]
+base = "线材轧钢厂"
+
+[STR_IND_ZINC_ORE_MINE]
+base = "锌矿"
+
+[STR_IND_ZINC_SMELTER]
+base = "锌冶炼厂"
+
+[STR_STATION]
+base = "{STRING} {STRING}"
+
+[STR_STATION_ANIMALS]
+base = "马市"
+
+[STR_STATION_APPLIANCE_FACTORY]
+base = "电器货场"
+
+[STR_STATION_AUTOMOTIVE]
+base = "汽车"
+
+[STR_STATION_BAKERY]
+base = "面包房"
+
+[STR_STATION_BAR_AND_SECTION_MILL]
+base = "型材"
+
+[STR_STATION_BAR_GRILL_AND_ROOMS]
+base = "酒吧旅馆"
+
+[STR_STATION_BARNS]
+base = "谷仓"
+
+[STR_STATION_BARREL_AND_KEG]
+base = "桶装"
+
+[STR_STATION_BASE]
+base = "基地"
+
+[STR_STATION_BONEYARD]
+base = "骨料场"
+
+[STR_STATION_BANK_TOP]
+base = "坡顶"
+
+[STR_STATION_BODY_PLANT]
+base = "冲压"
+
+[STR_STATION_BRINE_WORKS]
+base = "盐卤场"
+
+[STR_STATION_BUILDERS_YARD]
+base = "建材场"
+
+[STR_STATION_COLLIERY]
+base = "煤矿"
+
+[STR_STATION_COMPONENTS]
+base = "部件"
+
+[STR_STATION_CONCRETE_PLANT]
+base = "预制件"
+
+[STR_STATION_COPPER_LODE]
+base = "铜矿脉"
+
+[STR_STATION_CREOSOTING]
+base = "防腐"
+
+[STR_STATION_CRYO_PLANT]
+base = "低温厂"
+
+[STR_STATION_DAIRY_LANE]
+base = "奶场"
+
+[STR_STATION_ELASTOMER_PLANT]
+base = "密封件"
+
+[STR_STATION_ESTATE]
+base = "庄园"
+
+[STR_STATION_FACTORY]
+base = "工厂"
+
+[STR_STATION_FARM_1]
+base = "庄园"
+
+[STR_STATION_FARM_2]
+base = "草甸"
+
+[STR_STATION_FARM_3]
+base = "牧场"
+
+[STR_STATION_FISHMARKET]
+base = "鱼市"
+
+[STR_STATION_FOOD_CORPORATION]
+base = "食品公司"
+
+[STR_STATION_FOREST]
+base = "伐木场"
+
+[STR_STATION_FORGE_AND_FOUNDRY]
+base = "钢铁厂"
+
+[STR_STATION_FREEZERS]
+base = "冷库"
+
+[STR_STATION_FURNACE]
+base = "熔炉"
+
+[STR_STATION_METAL_WORKS]
+base = "金属件"
+
+[STR_STATION_HEAVY_INDUSTRY_2]
+base = "工厂"
+
+[STR_STATION_HERDING_COOP]
+base = "驯鹿栏"
+
+[STR_STATION_INDUSTRY_ESTATE_1]
+base = "工业园"
+
+[STR_STATION_INDUSTRY_HARBOUR_2]
+base = "水岸"
+
+[STR_STATION_INDUSTRY_HARBOUR_3]
+base = "栈桥"
+
+[STR_STATION_INDUSTRY_HARBOUR_4]
+base = "滨岸"
+
+[STR_STATION_IRONSTONE]
+base = "铁石"
+
+[STR_STATION_KILNS]
+base = "窑场"
+
+[STR_STATION_KIMBERLITE_DEPOSITS]
+base = "金伯利岩矿"
+
+[STR_STATION_LIMESTONE_MINES]
+base = "石灰石矿"
+
+[STR_STATION_MANGANESE_MINES]
+base = "锰矿"
+
+[STR_STATION_MILL]
+base = "磨坊"
+
+[STR_STATION_MILLS]
+base = "磨坊群"
+
+[STR_STATION_MINES]
+base = "矿区"
+
+[STR_STATION_MOULDINGS]
+base = "型材"
+
+[STR_STATION_OIL_RIG]
+base = "油田"
+
+[STR_STATION_ORCHARDS]
+base = "果园"
+
+[STR_STATION_PIPEWORK_FABRICATOR]
+base = "管线"
+
+[STR_STATION_PIT]
+base = "矿井"
+
+[STR_STATION_PLANT]
+base = "厂区"
+
+[STR_STATION_PLANTATION]
+base = "种植园"
+
+[STR_STATION_PLATE_MILL]
+base = "板坯场"
+
+[STR_STATION_POTASH_MINE]
+base = "矿物"
+
+[STR_STATION_POWERHUNGRY]
+base = "发电厂"
+
+[STR_STATION_POWERTRAIN]
+base = "传动"
+
+[STR_STATION_POWER_SYSTEMS_FACTORY]
+base = "机械"
+
+[STR_STATION_PUMPS]
+base = "泵站"
+
+[STR_STATION_PYRITES]
+base = "黄铁矿"
+
+[STR_STATION_REFINERY]
+base = "炼油厂"
+
+[STR_STATION_ROD_MILL]
+base = "棒材"
+
+[STR_STATION_RUBBER_COMPANY]
+base = "橡胶公司"
+
+[STR_STATION_SALTPETER_WORKS]
+base = "硝石场"
+
+[STR_STATION_SEAFOOD]
+base = "海产"
+
+[STR_STATION_SHARP_STREET]
+base = "夏普街"
+
+[STR_STATION_SHOALS]
+base = "浅滩"
+
+[STR_STATION_SILO]
+base = "筒仓"
+
+[STR_STATION_SMELTER]
+base = "冶炼厂"
+
+[STR_STATION_SOOT_FURNACE]
+base = "煤烟炉"
+
+[STR_STATION_SOUPS]
+base = "汤料"
+
+[STR_STATION_STRIP_MILL]
+base = "卷材"
+
+[STR_STATION_SUGAR_COMPANY]
+base = "糖业公司"
+
+[STR_STATION_TANK_FARM]
+base = "油罐区"
+
+[STR_STATION_TAPPERS_SHED]
+base = "割胶棚"
+
+[STR_STATION_TOWN_3]
+base = "商店"
+
+[STR_STATION_TRACKED_MACHINE_FACTORY]
+base = "履带厂"
+
+[STR_STATION_TRONA_BEDS]
+base = "天然碱矿"
+
+[STR_STATION_TUBE_MILL]
+base = "管材厂"
+
+[STR_STATION_WATER]
+base = "沙洲"
+
+[STR_STATION_WELLS]
+base = "井场"
+
+[STR_STATION_WHEAL]
+base = "矿脉"
+
+[STR_STATION_WINERY]
+base = "酒庄"
+
+[STR_STATION_WORKS]
+base = "工厂"
+
+[STR_STATION_VEHICLE_DISTRIBUTOR]
+base = "卡车场"
+
+[STR_BADGE_LAND]
+base = "陆地"
+
+[STR_BADGE_SEA]
+base = "海洋"
