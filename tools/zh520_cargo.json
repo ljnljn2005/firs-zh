@@ -1,0 +1,293 @@
+{
+"ACID": [
+"酸"
+],
+"AGGREGATES": [
+"集料"
+],
+"ALCOHOL": [
+"酒精"
+],
+"ALUMINIUM": [
+"铝"
+],
+"ALUMINIA": [
+"氧化铝"
+],
+"AMMONIA": [
+"氨"
+],
+"BEANS": [
+"豆类"
+],
+"BUILDING_MATERIALS": [
+"建材"
+],
+"CARBON_BLACK": [
+"炭黑"
+],
+"CASSAVA": [
+"木薯"
+],
+"CAST_IRON": [
+"铸铁"
+],
+"CEMENT": [
+"水泥"
+],
+"CHEMICALS": [
+"化学品"
+],
+"CHLORINE": [
+"氯"
+],
+"CHROMITE_ORE": [
+"铬铁矿"
+],
+"CLAY": [
+"黏土"
+],
+"CLEANING_AGENTS": [
+"清洁剂"
+],
+"COFFEE": [
+"咖啡"
+],
+"COAL_TAR": [
+"煤焦油"
+],
+"COKE": [
+"焦炭"
+],
+"CONCRETE_PRODUCTS": [
+"混凝土制品"
+],
+"COPPER": [
+"铜"
+],
+"COPPER_CONCENTRATE": [
+"铜精矿"
+],
+"EDIBLE_OIL": [
+"食用油"
+],
+"ELECTRICAL_PARTS": [
+"电气部件"
+],
+"ENGINEERING_SUPPLIES": [
+"工程物资"
+],
+"EXPLOSIVES": [
+"炸药"
+],
+"FERROALLOYS": [
+"铁合金"
+],
+"FISH": [
+"鱼"
+],
+"FARM_SUPPLIES": [
+"农用物资"
+],
+"FERTILISER": [
+"化肥"
+],
+"FOOD_ADDITIVES": [
+"食品添加剂"
+],
+"FORGINGS_AND_CASTINGS": [
+"锻铸件"
+],
+"FRUITS": [
+"水果"
+],
+"GLASS": [
+"玻璃"
+],
+"HARDWARE": [
+"五金"
+],
+"KAOLIN": [
+"高岭土"
+],
+"LIMESTONE": [
+"石灰石"
+],
+"LOGS": [
+"原木"
+],
+"LYE": [
+"烧碱"
+],
+"METHANOL": [
+"甲醇"
+],
+"MILK": [
+"牛奶"
+],
+"MANGANESE": [
+"锰"
+],
+"NAPHTHA": [
+"石脑油"
+],
+"NICKEL": [
+"镍"
+],
+"NITRATES": [
+"硝酸盐"
+],
+"NITROGEN": [
+"氮"
+],
+"NUTS": [
+"坚果"
+],
+"OXYGEN": [
+"氧"
+],
+"PAINTS_AND_COATINGS": [
+"涂料"
+],
+"PEAT": [
+"泥炭"
+],
+"PETROL": [
+"石油燃料"
+],
+"PIPEWORK": [
+"储罐管道"
+],
+"PHOSPHATE": [
+"磷矿"
+],
+"PHOSPHORIC_ACID": [
+"磷酸"
+],
+"PIG_IRON": [
+"生铁"
+],
+"PLASTICS": [
+"塑料"
+],
+"PLANT_AND_MACHINERY": [
+"机械设备"
+],
+"POTASH": [
+"钾盐"
+],
+"PUMPS_AND_VALVES": [
+"泵阀"
+],
+"PYRITE_ORE": [
+"黄铁矿"
+],
+"QUICKLIME": [
+"生石灰"
+],
+"RAW_LATEX": [
+"生胶乳"
+],
+"REBAR": [
+"螺纹钢"
+],
+"SALT": [
+"盐"
+],
+"SAND": [
+"砂"
+],
+"SCRAP_METAL": [
+"废金属"
+],
+"SEALS_HOSES_AND_BELTS": [
+"密封件软管"
+],
+"SLAG": [
+"矿渣"
+],
+"SODA_ASH": [
+"纯碱"
+],
+"STEEL": [
+"钢"
+],
+"STEEL_BILLETS_AND_BLOOMS": [
+"钢坯"
+],
+"STEEL_INGOTS": [
+"钢锭"
+],
+"STEEL_MERCHANT_BAR": [
+"型钢"
+],
+"STEEL_PIPE": [
+"钢管"
+],
+"STEEL_PLATE": [
+"钢板"
+],
+"STEEL_SHEET": [
+"薄板带钢"
+],
+"STEEL_SLAB": [
+"板坯"
+],
+"STEEL_TUBE": [
+"无缝管"
+],
+"STEEL_WIRE_ROD": [
+"线材"
+],
+"STRUCTURAL_STEELWORK": [
+"结构钢"
+],
+"SULPHUR": [
+"硫磺"
+],
+"SULPHURIC_ACID": [
+"硫酸"
+],
+"TEXTILES": [
+"纺织品"
+],
+"TIMBER": [
+"木材"
+],
+"TIN": [
+"锡"
+],
+"TINPLATE": [
+"马口铁"
+],
+"TYRE_CORD": [
+"轮胎帘布"
+],
+"TYRES": [
+"轮胎"
+],
+"VEHICLE_BODIES": [
+"车身"
+],
+"VEHICLE_ENGINES": [
+"发动机总成"
+],
+"VEHICLE_PARTS": [
+"车辆部件"
+],
+"VEHICLES": [
+"车辆"
+],
+"WELDING_CONSUMABLES": [
+"焊接耗材"
+],
+"WOOL": [
+"羊毛"
+],
+"YARN": [
+"纱线"
+],
+"ZINC": [
+"锌"
+]
+}
