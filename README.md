@@ -8,6 +8,15 @@ A Simplified Chinese localisation build of FIRS 5.2.0 (OpenTTD NewGRF), translat
 
 见 [Releases](https://github.com/ljnljn2005/firs-zh/releases)：`FIRS-Industries-5-5.2.0-zh1.tar`
 
+### 两个变体 / Two variants
+
+| 文件 | GRF ID | 用途 |
+| --- | --- | --- |
+| `FIRS-Industries-5-5.2.0-zh1.tar` | `f1250009`（同上游） | 直接替换英文版 FIRS 5，已有存档可继续加载 |
+| `FIRS-Industries-5-5.2.0-zh1-bananas.tar` | `f1250091`（独立） | 独立包，用于上传 BaNaNaS / 与官方 FIRS 同时安装 |
+
+BaNaNaS 的唯一标识就是 GRF ID，沿用 `f1250009` 会被当作官方 FIRS 的新版本；作为独立内容发布必须换成自己的 ID，所以提供第二个变体。代价是它无法替换老存档里的英文 FIRS（会提示缺少 NewGRF）。
+
 ## 安装 / Install
 
 1. 把 tar 放到 OpenTTD 的 `content_download/newgrf/` 目录：
